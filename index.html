@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="WaveShot: A Compact Portable Unmanned Surface Vessel for Dynamic Water Surface Videography and Media Production">
+  <meta name="keywords" content="Robotics, Unmanned Surface Veseel, Monocular Depth Estimation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wave Shot</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="icon" href="./favicon.ico">
+
+  <meta property="og:site_name" content="WaveShot: A Compact Portable Unmanned Surface Vessel for Dynamic Water Surface Videography and Media Production" />
+  <meta property="og:type" content="video.other" />
+  <meta property="og:title" content="WaveShot: A Compact Portable Unmanned Surface Vessel for Dynamic Water Surface Videography and Media Production" />
+  <meta property="og:description" content="by Shijian Ma*, ShiCong Ma* and WeiZe Ma" />
+  <meta property="og:url" content="https://wave-shott.github.io/" />
+  <meta property="og:video" content="" />
+  <meta property="og:video:secure" content="" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="720" />
+
+  <meta property="article:publisher" content="https://wave-shott.github.io" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="WaveShot: A Compact Portable Unmanned Surface Vessel for Dynamic Water Surface Videography and Media Production" />
+  <meta name="twitter:description" content="by Shijian Ma*, ShiCong Ma* and WeiZe Mad" />
+  <meta name="twitter:url" content="https://wave-shott.github.io/" />
+  <meta name="twitter:card" content="player" />
+  <meta name="twitter:player" content="" />
+  <meta name="twitter:player:width" content="1280" />
+  <meta name="twitter:player:height" content="720" />
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+
+
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-two-thirds is-centered has-text-centered">
+          <h1 class="title is-1 publication-title">Wave Shot</h1>
+          <h2 class="subtitle is-2 publication-subtitle">A Compact Portable Unmanned Surface Vessel for Dynamic Water Surface Videography and Media Production</h2>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              <a >Shijian Ma</a>*&nbsp;&nbsp;&nbsp;
+              <a >ShiCong Ma</a>*&nbsp;&nbsp;&nbsp;
+              <a >WeiZe Ma</a>
+            </span>
+          </div>
+          <!-- <image src="./static/images/logo.jpg" style="width: 80%;"></image> -->
+          <div>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./resources/wave-shot.pdf"
+                   class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-two-thirds is-centered has-text-centered">
+          <video download controls autoplay loop muted playsinline src="./resources/wave-shot.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            WaveShot, an innovative portable unmanned surface vessel that aims to transform water surface videography by offering a highly maneuverable, cost-effective, and safe alternative to traditional filming methods. WaveShot is specially designed for the modern demands of film production, advertising, documentaries, and visual arts, equipped with professional-grade waterproof cameras and advanced technology to capture both static and dynamic scenes on waterways. We discuss the development and advantages of WaveShot, highlighting its portability, ease of transport, and rapid deployment capabilities. Experimental validation that is showcasing WaveShot's stability and high-quality video capture in various water conditions, and the integration of monocular depth estimation algorithms to enhance the operator's spatial perception. The paper concludes with an exploration of WaveShot's real-world applications, its user-friendly remote operation, and future enhancements such as gimbal integration and advanced computer vision for optimized videography on water surfaces.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>Page template borrowed from <a href="https://nerfies.github.io/"><span class="dnerf">Nerfies</span></a> and <a href="https://robot-parkour.github.io/"><span class="dnerf">Robot-Parkour</span></a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
